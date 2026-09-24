@@ -66,3 +66,13 @@ Desktop.ini
 
 # ---- self ----
 AGENTS/
+
+# ---- 临时：Game/ 暂时只提交代码（脚本 / 编辑器工具 / shader）----
+# 美术资源工作流（LFS 等）确定后，删除这一段即可提交全部内容
+/Assets/Game/*
+!/Assets/Game/Scripts/
+!/Assets/Game/Scripts.meta
+!/Assets/Game/Editor/
+!/Assets/Game/Editor.meta
+!/Assets/Game/Shaders/
+!/Assets/Game/Shaders.meta
