@@ -1,0 +1,65 @@
+# ============================================================
+# projd - Unity 6 (URP) .gitignore
+# 需要提交：Assets/（含 .meta）、Packages/、ProjectSettings/、AGENTS/
+# ============================================================
+
+# ---- Unity 自动生成（可随时重建）----
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# ---- 构建产物 ----
+/[Bb]uild/
+/[Bb]uilds/
+*.app
+*.apk
+*.aab
+*.unitypackage
+
+# ---- Unity 崩溃恢复场景 ----
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/_Recovery.meta
+
+# ---- Unity 杂项 ----
+/[Aa]ssets/AssetStoreTools*
+sysinfo.txt
+crashlytics-build.properties
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# 自动生成的 Burst 调试信息
+/[Aa]ssets/*_BurstDebugInformation_DoNotShip*
+
+# ---- IDE 自动生成的工程文件 ----
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+ExportedObj/
+.consulo/
+
+# ---- 编辑器 / IDE 个人配置 ----
+.vs/
+.vscode/
+.idea/
+*.swp
+
+# ---- 系统文件 ----
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
